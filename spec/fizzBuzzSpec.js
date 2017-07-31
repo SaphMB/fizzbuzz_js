@@ -15,6 +15,10 @@ describe('Javabuzz', function() {
     it('divisible by 5', function() {
       expect(javabuzz.isDivisibleByFive(5)).toBe(true);
     });
+
+    it('divisible by 3 and 5', function() {
+      expect(javabuzz.isDivisibleByThreeAndFive(15)).toBe(true);
+    });
   });
 
 
